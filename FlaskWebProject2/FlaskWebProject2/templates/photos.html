@@ -1,0 +1,57 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="jumbotron text-center">
+        <h2>Photo album - dogs</h2>
+        <p>Galit Singler</p>
+    </div>
+    <style>
+
+        table, th, td {
+            border: 1px black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        table#t01 {
+            width: 100%;
+            background-color: #00ffff;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <table class="table table-bordered">
+        <tr>
+         <td><img src="https://www.cool943.com/wp-content/uploads/2019/04/pexels-photo-1108099.jpg" height="200" width="300"</td>
+        <td><img src="https://www.arimnews.co.il/wp-content/uploads/2019/02/eee7a1b7c593885c10ed40202a6f5183.jpg"height="200" width="300"</td>
+        <td><img src="https://media.familyminded.com/3b/0d/3b0d80ed89394877a47899a513ca04bd.jpeg"height="200" width="300"  </td>
+
+        </tr>
+        <tr>
+            <td><img src="https://i.dailymail.co.uk/1s/2019/11/18/16/21162158-0-image-a-38_1574094224893.jpg"height="200" width="300"</td>
+            <td><img src="https://ewscripps.brightspotcdn.com/40/e3/160ee9db4358815e56073352b7b6/dcm-dog-diets-2.png"height="200" width="300"</td>
+            <td><img src="https://media.petnet.co.il/ckFiles/images/%D7%92%D7%96%D7%A2%D7%99%D7%9D/%D7%A8%D7%95%D7%A2%D7%94_%D7%90%D7%95%D7%A1%D7%98%D7%A8%D7%9C%D7%99_%D7%92%D7%95%D7%A8_570.jpg"height="200" width="300"</td>
+        </tr>
+
+    </table>
+    <br>
+
+
+</body>
+</html>
+
+
+{% endblock %}
